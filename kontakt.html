@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LuMi clean</title>
+	<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bodoni+Moda&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<a class="gotop" href="#top"> <i class="fa fa-arrow-up"></i></a>
+	<section class="sub-header1">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">			
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">POČETNA</a></li>
+					<li><a href="Usluge.html">USLUGE</a></li>
+					<li><a href="index.html #onamaid">O NAMA</a></li>
+					<li><a href="Galerija.html">GALERIJA</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>KONTAKT</h1>	
+	</section>
+	
+	<section class="location">
+		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88420.80731799031!2d16.751161680722273!3d46.16766514986586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476627031a318147%3A0xbe043a049b25af09!2sKoprivnica!5e0!3m2!1shr!2shr!4v1641219367758!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" id=mapid></iframe>
+	</section>
+	
+	<section class="kontaktiraj">
+	
+		<div class="usluga">
+			<div class="kontaktiraj-nas">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>Ulica hrvatske državnosti 11f</h5>
+						<p>Hrvatska, Koprivnica, 48000</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>+385 98 542 1248</h5>
+						<p>Svakim radnim danom - prema dogovoru</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+						<h5>lumi.clean123@gmail.com</h5>
+						<p>Pišite nam</p>
+					</span>
+				</div>
+			</div>
+			<div class="kontaktiraj-nas">
+			
+				<form>
+					<input type="text" name="name" placeholder="Upiši svoje ime i prezime" required>
+					<input type="text" name="email" placeholder="Upiši svoj email" required>
+					<input type="text" name="subject" placeholder="Upiši uslugu koja te zanima" required>
+					<textarea rows="8" name="message"placeholder="Message" required></textarea>
+					<button type="submit" class="hero-btn blu-btn">Pošalji</button>
+				</form>
+			
+			</div>
+		</div>
+		
+		
+		</section>
+	
+<section class="footer">
+		<ul>
+		<li><a href=#onamaid>O nama</a></li>
+		<li><a href="Usluge.html">Usluge</a></li>
+		<li><a href="kontakt.html">Kontakt</a></li>
+		<li><a href="Galerija.html">Galerija</a></li>
+        <li><a href="FAQ.html">Najčešće postavljena pitanja</a></li>
+		</ul>
+		<div class="icons">
+			<a href="https://www.facebook.com/LuMi-Clean-111235681356287%22%3E"><i class="fa fa-facebook"></i></a>
+			<a href="kontakt.html"><i class="fa fa-phone"></i></a>
+			<a href="kontakt.html"><i class="fa fa-envelope"></i></a>
+			<a href="kontakt.html"><i class="fa fa-map-marker"></i></a>
+		</div>
+		
+	</section>
+
+
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+		}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+		}	
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LuMi clean</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bodoni+Moda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<a class="gotop" href="#top"> <i class="fa fa-arrow-up"></i></a>
+    
+	<section class="header">
+		<nav>
+			<a href="index.html"><img alt=logo src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">			
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">POČETNA</a></li>
+					<li><a href="#onamaid">O NAMA</a></li>
+					<li><a href="Usluge.html">USLUGE</a></li>
+					<li><a href="kontakt.html">KONTAKT</a></li>
+					<li><a href="Galerija.html">GALERIJA</a></li>
+					
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+		  <h1>BRZO.&nbsp;JEDNOSTAVNO.&nbsp;POUZDANO.</h1>
+		  <p>Svi sanjamo o čistoj kući, ali tko sanja o tome da zapravo čisti?</p>
+		  <a href="kontakt.html#mapid" class="hero-btn">Potraži nas</a>
+		</div>
+	</section>
+
+    <section id=onamaid class="onama">
+	   <h4>O nama</h4>
+	   <p>Sa zadovoljstvom predstavljamo novi obrt u Koprivnici.<br> Od samog početka odlikujemo se visokom kvalitetom usluge čišćenja, profesionalnim pristupom, ljubaznošću i širokim asortimanom usluga čišćenja. Obrt su osnovale dvije mlade i poduzetne djevojke, Lucija i Mihaela, odatle i naziv LuMi.</p>
+	   <div class="usluga">
+		<div class="usluga-dio">
+			<h2>Čišćenje stanova, kuća i domaćinstva</h2>
+			<p>•stropne ventilatore i svijetla,<br>•ispod namještaja,<br>•ogledala,<br>•prozore,<br>•slike i druge umjetnine…</p>
+        </div>
+		<div class="usluga-dio">
+			<h2>Čišćenje poslije radova</h2>
+			<p>•uklanjanje prašine, prljavštine i ogrebotina sa svih površina,<br>•usisavanje i brisanje prašine sa stolarije, opreme i uređaja,...<br>•čišćenje obloga, postolja, okvira i dovratnika,</p>
+        </div>
+		<div class="usluga-dio">
+			<h2>Čišćenje i održavanje zgrada</h2>
+			<p>•metenje stubišta,<br> •mokro pranje stubišta,<br> •pranje staklenih površina,<br> •pranje ulaznih vrata stubišta, <br>•čišćenje liftova, prekidača, poštanskih sandučića, <br>•čišćenje rukohvata…</p>
+        </div>
+       </div>
+    
+    </section>
+	   <a href="Usluge.html" class="btn">Više usluga</a>
+	
+	<section class="galerija">
+		<h4>Galerija</h4>
+		<p>Prijeđi mišom da vidiš poslije...</p>
+	   <div class="usluga">
+			<div class="usluga-galerija">
+				<img alt=balkon src="images/balkon-prije.png" onmouseover="this.src='images/balkon.png'" onmouseout="this.src='images/balkon-prije.png'"/>
+			</div>
+			<div class="usluga-galerija">
+				<img alt=kupaona src="images/kupaona-prije.png" onmouseover="this.src='images/kupaona.png'" onmouseout="this.src='images/kupaona-prije.png'"/>
+			</div>
+			<div class="usluga-galerija">
+				<img alt=radovi src="images/radovi-prije.jpg" onmouseover="this.src='images/radovi-poslije.png'" onmouseout="this.src='images/radovi-prije.jpg'"/>
+			</div>
+		</div>
+	</section>
+	   <a href="Galerija.html" class="btn">Više...</a>
+	
+	<section class="kontakt">
+	   <h1>Kontaktirajte nas i rezervirajte termin</h1>
+	   <a href="kontakt.html" class="hero-btn">KONTAKT</a>
+	</section>
+
+	<section class="footer">
+		<ul>
+		<li><a href=#onamaid>O nama</a></li>
+		<li><a href="Usluge.html">Usluge</a></li>
+		<li><a href="kontakt.html">Kontakt</a></li>
+		<li><a href="Galerija.html">Galerija</a></li>
+        <li><a href="FAQ.html">Najčešće postavljena pitanja</a></li>
+		</ul>
+		<div class="icons">
+			<a href="https://www.facebook.com/LuMi-Clean-111235681356287%22%3E"><i class="fa fa-facebook"></i></a>
+			<a href="kontakt.html"><i class="fa fa-phone"></i></a>
+			<a href="kontakt.html"><i class="fa fa-envelope"></i></a>
+			<a href="kontakt.html"><i class="fa fa-map-marker"></i></a>
+		</div>	
+	</section>
+
+<script>
+    
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+		}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+		}	
+	
+</script>
+</body>
+</html>
